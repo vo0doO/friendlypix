@@ -66,7 +66,7 @@
 
 <!-- Splash screen -->
 <section id="page-splash">
-  <h3 class="fp-logo"><i class="material-icons">favorite</i> Ангелина - Единственная</h3>
+  <h3 class="fp-logo"><i class="material-icons"> favorite</i> Ангелина - Единственная</h3>
   <div class="fp-caption">Клуб поклонников Ангелины Венториус</div>
   <div class="fp-signed-out-only fp-initially-hidden">
     <div id="firebaseui-auth-container" class="fp-signed-out-only fp-initially-hidden"></div>
@@ -124,6 +124,7 @@
       <div class="mdl-tab">
         <a href="/" id="fp-menu-home" class="mdl-layout__tab fp-signed-in-only is-active mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">home</i> Главная</a>
         <a href="/feed" id="fp-menu-feed" class="mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">trending_up</i> Посты</a>
+        <a href="/feed" id="fp-menu-feed" class="mdl-layout__tab mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">play</i> Игра "Ангелочка"</a>
         <input id="fp-mediacapture" type="file" accept="image/*;capture=camera">
         <button class="fp-signed-in-only mdl-button mdl-js-button mdl-button--fab mdl-cell--hide-tablet mdl-color--amber-400 mdl-shadow--4dp mdl-js-ripple-effect" id="add">
           <i class="material-icons">file_upload</i>
@@ -345,6 +346,10 @@
   };
   var firebaseUi = new firebaseui.auth.AuthUI(firebase.auth());
 </script>
+
+<!-- Яндекс метрика -->
+<script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter42459269 = new Ya.Metrika({ id:42459269, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true, ut:"noindex", ecommerce:"dataLayer" }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script>
+<!-- /Yandex.Metrika counter -->
 
 <!-- Friendly Pix ES5 scripts -->
 <script src="/scripts-es5/utils.js"></script>
