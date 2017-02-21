@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.samples.apps.friendlypix;
+package com.google.firebase.angelina.ventorius.quenofthegalaxy;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -28,7 +28,6 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseAuthException;
 
 public class WelcomeActivity extends AppCompatActivity implements View.OnClickListener {
 

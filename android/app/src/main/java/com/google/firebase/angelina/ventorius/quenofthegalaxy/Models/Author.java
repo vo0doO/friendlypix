@@ -15,7 +15,7 @@
  *
  */
 
-package com.google.firebase.samples.apps.friendlypix.Models;
+package com.google.firebase.angelina.ventorius.quenofthegalaxy.Models;
 
 public class Author {
     private String full_name;

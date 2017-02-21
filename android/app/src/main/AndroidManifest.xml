@@ -15,7 +15,7 @@
   ~ limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.google.firebase.samples.apps.friendlypix">
+    package="com.google.firebase.angelina.ventorius.quenofthegalaxy">
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -33,15 +33,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ProfileActivity"
+            android:name="com.google.firebase.angelina.ventorius.quenofthegalaxy.ProfileActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".FeedsActivity"
+            android:name="com.google.firebase.angelina.ventorius.quenofthegalaxy.FeedsActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".WelcomeActivity"
+            android:name="com.google.firebase.angelina.ventorius.quenofthegalaxy.WelcomeActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar.Fullscreen">
             <intent-filter>
@@ -51,18 +51,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CommentsActivity"
+            android:name="com.google.firebase.angelina.ventorius.quenofthegalaxy.CommentsActivity"
             android:label="@string/title_activity_comments"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".NewPostActivity"
+            android:name="com.google.firebase.angelina.ventorius.quenofthegalaxy.NewPostActivity"
             android:label="@string/title_activity_new_post"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".UserDetailActivity"
+            android:name="com.google.firebase.angelina.ventorius.quenofthegalaxy.UserDetailActivity"
             android:label="@string/title_activity_user_detail"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".BaseActivity"></activity>
+        <activity android:name="com.google.firebase.angelina.ventorius.quenofthegalaxy.BaseActivity"></activity>
     </application>
 
 </manifest>

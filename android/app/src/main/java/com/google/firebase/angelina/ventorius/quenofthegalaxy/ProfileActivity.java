@@ -14,19 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.firebase.samples.apps.friendlypix;
+package com.google.firebase.angelina.ventorius.quenofthegalaxy;
 
 
-import android.app.Activity;
-import android.app.ProgressDialog;
-import android.content.Context;
-import android.content.ContextWrapper;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.Message;
 import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;

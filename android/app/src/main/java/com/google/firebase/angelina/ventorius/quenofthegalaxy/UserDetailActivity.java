@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.samples.apps.friendlypix;
+package com.google.firebase.angelina.ventorius.quenofthegalaxy;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -37,8 +37,8 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.ValueEventListener;
-import com.google.firebase.samples.apps.friendlypix.Models.Person;
-import com.google.firebase.samples.apps.friendlypix.Models.Post;
+import com.google.firebase.angelina.ventorius.quenofthegalaxy.Models.Person;
+import com.google.firebase.angelina.ventorius.quenofthegalaxy.Models.Post;
 
 import java.util.ArrayList;
 import java.util.HashMap;

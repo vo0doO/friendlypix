@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.samples.apps.friendlypix;
+package com.google.firebase.angelina.ventorius.quenofthegalaxy;
 
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
@@ -27,7 +27,6 @@ import android.support.v7.widget.Toolbar;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.firebase.samples.apps.friendlypix;
+package com.google.firebase.angelina.ventorius.quenofthegalaxy;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.samples.apps.friendlypix.Models.Author;
+import com.google.firebase.angelina.ventorius.quenofthegalaxy.Models.Author;
 
 class FirebaseUtil {
     public static DatabaseReference getBaseRef() {

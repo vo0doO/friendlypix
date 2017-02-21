@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.samples.apps.friendlypix;
+package com.google.firebase.angelina.ventorius.quenofthegalaxy;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -33,8 +33,8 @@ import com.google.firebase.crash.FirebaseCrash;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ServerValue;
-import com.google.firebase.samples.apps.friendlypix.Models.Author;
-import com.google.firebase.samples.apps.friendlypix.Models.Post;
+import com.google.firebase.angelina.ventorius.quenofthegalaxy.Models.Author;
+import com.google.firebase.angelina.ventorius.quenofthegalaxy.Models.Post;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
